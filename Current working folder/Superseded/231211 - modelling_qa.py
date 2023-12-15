@@ -118,6 +118,7 @@ for i in range(num_models):
 # draw network
 nx.draw_networkx(G)
 
+
 # check for cycles
 try:
     cycles = nx.find_cycle(G)
